@@ -5,80 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Page header -->
-    <header>
+    <header class="header">
       <!-- Logo is always a link -->
-      <a href="#"><span>Web</span>Studio</a>
+      <a class="logo" href="./index.html">Web<span class="logo-dark">Studio</span></a>
       <!-- Main navigation -->
       <nav>
-        <ul>
+        <ul class="nav nobull">
           <li>
-            <a href="#">Agencja</a>
+            <a class="link nav-link" href="#">Agencja</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a class="link nav-link" href="./portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a href="#">Kontakt</a>
+            <a class="link nav-link" href="#">Kontakt</a>
           </li>
         </ul>
       </nav>
       <!-- Header contact links -->
-      <ul>
+      <ul class="header-contacts nobull">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link header-contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a class="link header-contacts-link" href="tel:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
     </header>
     <!-- Page content -->
     <main>
       <!-- Top banner -->
-      <div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <div class="top-banner">
+        <h1 class="top-banner-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="top-banner-button" type="button">Zamów usługę</button>
       </div>
-      <!-- Lorem -->
-      <div>
-        <ul>
+      <!-- Our-values section -->
+      <section>
+        <ul class="nobull">
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h3 class="values-heading">LOREM IPSUM</h3>
+            <p class="values-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h3 class="values-heading">LOREM IPSUM</h3>
+            <p class="values-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h3 class="values-heading">LOREM IPSUM</h3>
+            <p class="values-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+            <h3 class="values-heading">LOREM IPSUM</h3>
+            <p class="values-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
-      </div>
-      <!-- What we do section -->
+      </section>
+      <!-- Our-serivces section -->
       <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="section-heading">Czym się zajmujemy</h2>
+        <ul class="nobull">
           <li>
             <img
               src="images/img1.jpg"
@@ -96,21 +105,16 @@
             />
           </li>
           <li>
-            <img
-              src="images/img3.jpg"
-              alt="Dlonie obslugujace tablet"
-              width="370"
-              height="294"
-            />
+            <img src="images/img3.jpg" alt="Dlonie obslugujace tablet" width="370" height="294" />
           </li>
         </ul>
       </section>
-      <!-- Team section -->
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <!-- Our-team section -->
+      <section class="team-section">
+        <h2 class="section-heading">Nasz zespół</h2>
+        <ul class="nobull">
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img4.jpg"
                 alt="Portret John Doe w bordowej koszuli"
@@ -118,13 +122,13 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <h3 class="team-heading">John Doe</h3>
+                <p class="team-text">Product Designer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img5.jpg"
                 alt="Portret John Doe w czarnej marynarce"
@@ -132,13 +136,13 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Frontend Developer</p>
+                <h3 class="team-heading">John Doe</h3>
+                <p class="team-text">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img6.jpg"
                 alt="Portret John Doe w blekitnej koszuli"
@@ -146,13 +150,13 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>Marketing</p>
+                <h3 class="team-heading">John Doe</h3>
+                <p class="team-text">Marketing</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-card">
               <img
                 src="images/img7.jpg"
                 alt="Portret John Doe w czarnej koszulce"
@@ -160,8 +164,8 @@
                 height="260"
               />
               <figcaption>
-                <h3>John Doe</h3>
-                <p>UI Designer</p>
+                <h3 class="team-heading">John Doe</h3>
+                <p class="team-text">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -169,14 +173,14 @@
       </section>
     </main>
     <!-- Page footer -->
-    <footer>
+    <footer class="footer">
       <!-- Logo is always a link -->
-      <a href="#"><span>Web</span>Studio</a>
+      <a class="logo" href="./index.html">Web<span class="logo-light">Studio</span></a>
       <!-- Footer contact information -->
-      <address>
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+48111111111">+48 111 111 111</a>
+      <address class="address-text line-break">
+        m. Warszawa, Aleje Jerozolimskie 21
+        <a class="link footer-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="link footer-contacts-link" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
