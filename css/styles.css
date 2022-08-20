@@ -75,6 +75,9 @@ body {
   color: var(--secondary-text-color);
 }
 
+.active-page-link {
+  color: var(--brand-color);
+}
 .top-banner {
   background-color: var(--dark-background-color);
 }
@@ -146,22 +149,8 @@ body {
   color: var(--secondary-text-color);
 }
 
-.footer {
-  background-color: var(--dark-background-color);
-}
-
-.address-text {
-  font-style: normal;
-  line-height: 1.714;
-  color: var(--white-color);
-}
-
-.footer-contacts-link {
-  color: var(--white-60-color);
-}
-
-.active-page-link {
-  color: var(--brand-color);
+.top-border {
+  border-top: 1px solid var(--border-color);
 }
 
 .portfolio-filter-button {
@@ -207,6 +196,16 @@ body {
   color: var(--secondary-text-color);
 }
 
-.top-border {
-  border-top: 1px solid var(--border-color);
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.address-text {
+  font-style: normal;
+  line-height: 1.714;
+  color: var(--white-color);
+}
+
+.footer-contacts-link {
+  color: var(--white-60-color);
 }
