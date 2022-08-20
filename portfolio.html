@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Page header -->
+    <header class="header">
+      <!-- Logo is always a link -->
+      <a class="logo" href="./index.html">Web<span class="logo-dark">Studio</span></a>
+      <!-- Main navigation -->
+      <nav>
+        <ul class="nav nobull">
+          <li>
+            <a class="link nav-link" href="#">Agencja</a>
+          </li>
+          <li>
+            <a class="link active-page-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="link nav-link" href="#">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Header contact links -->
+      <ul class="header-contacts nobull">
+        <li>
+          <a class="link header-contacts-link" href="mailto:info@devstudio.com">
+            info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a class="link header-contacts-link" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
+      </ul>
+    </header>
+    <!-- Page content -->
+    <main>
+      <!-- Portfolio section -->
+      <section class="top-border">
+        <!-- Portfolio filter-->
+        <ul class="nobull">
+          <li><button class="portfolio-filter-button" type="button">Wszystkie</button></li>
+          <li><button class="portfolio-filter-button" type="button">Strony</button></li>
+          <li><button class="portfolio-filter-button" type="button">Aplikacje</button></li>
+          <li><button class="portfolio-filter-button" type="button">Dizajn</button></li>
+          <li><button class="portfolio-filter-button" type="button">Marketing</button></li>
+        </ul>
+        <!-- Projects -->
+        <ul class="nobull">
+          <li>
+            <figure class="portfolio-card">
+              <img src="images/portfolio-img1.jpg" alt="Technocrack" width="370" height="294" />
+              <figcaption>
+                <h3 class="portfolio-heading">Technocrack</h3>
+                <p class="portfolio-text">Strona internetowa</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img
+                src="images/portfolio-img2.jpg"
+                alt="Grafika New Orlean vs Golden Star"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="portfolio-heading">Grafika New Orlean vs Golden Star</h3>
+                <p class="portfolio-text">Dizajn</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img
+                src="images/portfolio-img3.jpg"
+                alt="Restauracja Seafood"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="portfolio-heading">Restauracja Seafood</h3>
+                <p class="portfolio-text">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img src="images/portfolio-img4.jpg" alt="Projekt Prime" width="370" height="294" />
+              <figcaption>
+                <h3 class="portfolio-heading">Projekt Prime</h3>
+                <p class="portfolio-text">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img src="images/portfolio-img5.jpg" alt="Projekt Boxes" width="370" height="294" />
+              <figcaption>
+                <h3 class="portfolio-heading">Projekt Boxes</h3>
+                <p class="portfolio-text">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img
+                src="images/portfolio-img6.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="portfolio-heading">Inspiration has no Borders</h3>
+                <p class="portfolio-text">Strona internetowa</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img
+                src="images/portfolio-img7.jpg"
+                alt="Magazyn Limited Edition"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="portfolio-heading">Magazyn Limited Edition</h3>
+                <p class="portfolio-text">Dizajn</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img src="images/portfolio-img8.jpg" alt="Projekt LAB" width="370" height="294" />
+              <figcaption>
+                <h3 class="portfolio-heading">Projekt LAB</h3>
+                <p class="portfolio-text">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="portfolio-card">
+              <img
+                src="images/portfolio-img9.jpg"
+                alt="Growing Business"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h3 class="portfolio-heading">Growing Business</h3>
+                <p class="portfolio-text">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Page footer -->
+    <footer class="footer">
+      <!-- Logo is always a link -->
+      <a class="logo" href="./index.html">Web<span class="logo-light">Studio</span></a>
+      <!-- Footer contact information -->
+      <address class="address-text line-break">
+        m. Warszawa, Aleje Jerozolimskie 21
+        <a class="link footer-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="link footer-contacts-link" href="tel:+48111111111">+48 111 111 111</a>
+      </address>
+    </footer>
+  </body>
+</html>
